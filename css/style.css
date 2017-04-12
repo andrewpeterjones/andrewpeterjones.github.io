@@ -1,0 +1,191 @@
+/**************************
+General
+**************************/
+a {
+	text-decoration: none;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/**************************
+Colours
+**************************/
+ 
+/* site body */
+body {
+	background-color: #fff;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* black header */
+header {
+	background: #134920;
+}
+
+/* nav background on mobile */
+nav {
+	background: #134920;
+}
+
+
+
+/**************************
+Heading
+**************************/
+header {
+	float: left;
+	margin: 0 0 50px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+	color: #fff;
+}
+
+.logoA {
+	margin: 15px 0;
+	font-size: 1.75em;
+	letter-spacing: 8px;
+}
+
+.logoB {
+	font-size: 0.60em;
+	letter-spacing: 8px;
+}
+
+
+
+/**************************
+Nav Bar
+**************************/
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	display: inline-block;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	color: #fff;
+	padding: 10px;
+	letter-spacing: 5px;
+	font-size: 0.60em;
+}
+
+nav a.selected, a:hover {
+	color: #666;
+}
+
+
+
+/**************************
+Portfolio
+**************************/
+h1 {
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-bottom: 20%;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+	text-align: center;
+}
+
+#gallery img {
+	width: ;
+	height: ;
+}
+
+
+
+/**************************
+Footer
+**************************/
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 60px;
+}
+
+.socialIcon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px
+}
+
+
+
+/**************************
+About Page
+**************************/
+.profilePhoto {
+	display: block;
+	max-width: 200px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
+
+/**************************
+Contact Page
+**************************/
+.contactInfo {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0.9em;
+}
+
+.contactPic {
+	padding: 50px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
