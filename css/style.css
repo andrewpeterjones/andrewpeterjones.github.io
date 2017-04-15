@@ -24,18 +24,16 @@ Colours
 /* site body */
 body {
 	background-color: #fff;
-	color: black;
+	color: #000;
 	font-family: 'Open Sans', sans-serif;
 }
 
-/* black header */
 header {
-	background: #134920;
+	background: #3b4736;
 }
 
-/* nav background on mobile */
 nav {
-	background: #134920;
+	background: #3b4736;
 }
 
 
@@ -127,7 +125,7 @@ h1 {
 	margin: 0;
 	padding: 5%;
 	font-size: 0.75em;
-	color: #bdc3c7;
+	color: #000;
 	text-align: center;
 }
 
@@ -164,6 +162,7 @@ About Page
 	max-width: 200px;
 	margin: 0 auto 30px;
 	border-radius: 100%;
+	border-color: #63283a; 
 }
 
 /**************************
@@ -176,8 +175,13 @@ Contact Page
 	font-size: 0.9em;
 }
 
-.contactPic {
-	padding: 50px 0 0 0;
+.contactBlock {
+	clear: both;
+	text-align: center;
+	background-color: #41525b ;
+	color: #fff;
+	padding: 50px 20px;
+	margin: 40px 0 0 0;
 }
 
 
