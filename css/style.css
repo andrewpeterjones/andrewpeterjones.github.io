@@ -17,6 +17,11 @@ img {
 
 p {
 	line-height: 1.7;
+	letter-spacing: 1px;
+}
+
+h2 {
+	letter-spacing: 2px;
 }
 
 
@@ -29,6 +34,8 @@ body {
 	background-color: #fff;
 	color: #000;
 	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	padding: 0;
 }
 
 header {
@@ -40,12 +47,10 @@ nav {
 }
 
 
-
 /**************************
 Heading
 **************************/
 header {
-	float: left;
 	margin: 0 0 50px 0;
 	padding: 5px 0 0 0;
 	width: 100%;
@@ -178,13 +183,22 @@ Contact Page
 	font-size: 0.9em;
 }
 
+.contactInfo a:hover {
+	color: #3b4736;
+}
+
 .contactBlock {
 	clear: both;
-	text-align: center;
-	background-color: #41525b ;
-	color: #fff;
+	background: #3b4736;
 	padding: 50px 20px;
 	margin: 40px 0 0 0;
+}
+
+.contactBlock h5 {
+	text-align: center;
+	color: #fff;
+	font-weight: 100;
+	letter-spacing: 2px;
 }
 
 
