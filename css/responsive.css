@@ -29,13 +29,13 @@
 @media screen and (min-width: 780px) {
 	
 	.logoA {
-		text-align: left;
-		padding: 20px 0 0 70px;
+		text-align: center;
+		padding: 0;
 	}
 
 	.logoB {
-		text-align: left;
-		padding: 0 0 0 100px;
+		text-align: center;
+		padding: 0;
 	}
 
 	nav li {
