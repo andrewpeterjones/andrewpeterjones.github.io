@@ -167,7 +167,7 @@ About Page
 **************************/
 .profilePhoto {
 	display: block;
-	max-width: 200px;
+	max-width: 350px;
 	margin: 0 auto 30px;
 	border-radius: 100%;
 	border-color: #63283a; 
