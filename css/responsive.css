@@ -12,7 +12,7 @@
 	**************************/
 	.profilePhoto {
 		display: block;
-		max-width: 150px;
+		max-width: 250px;
 		margin: 0 auto 30px;
 		border-radius: 100%;
 		border-color: #63283a; 
@@ -50,8 +50,8 @@
 	}
 
 	.profilePhoto {
-		float: left;
-		margin: 0 5% 80px 0;
+		float: center;
+		margin: auto;
 	}
 
 	.secondary {
