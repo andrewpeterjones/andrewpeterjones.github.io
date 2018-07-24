@@ -74,7 +74,6 @@ header {
 }
 
 
-
 /**************************
 Nav Bar
 **************************/
@@ -106,6 +105,22 @@ nav a.selected, a:hover {
 	color: #666;
 }
 
+
+/**************************
+Footer
+**************************/
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 60px;
+}
+
+.socialIcon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px
+}
 
 
 /**************************
@@ -143,23 +158,36 @@ h1 {
 }
 
 
-
 /**************************
-Footer
+Portfolio Pages
 **************************/
-footer {
-	font-size: 0.75em;
+
+#wrapper2 {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	line-height: 1.7;
+	letter-spacing: 1px;
+}
+
+h2 {
 	text-align: center;
-	clear: both;
-	padding-top: 60px;
 }
 
-.socialIcon {
-	width: 20px;
-	height: 20px;
-	margin: 0 5px
+h4 {
+	letter-spacing: 10px;
+	text-align: center;
+	background: #3b4736;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 }
-
 
 
 /**************************
@@ -167,11 +195,12 @@ About Page
 **************************/
 .profilePhoto {
 	display: block;
-	max-width: 600px;
+	max-width: 150px;
 	margin: 0 auto 30px;
 	border-radius: 100%;
 	border-color: #63283a; 
 }
+
 
 /**************************
 Contact Page
