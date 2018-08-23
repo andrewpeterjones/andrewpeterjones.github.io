@@ -4,7 +4,7 @@
 	Portfolio
 	**************************/
 	h1 {
-	font-size: 60px;
+		font-size: 60px;
 	}
 	
 	/**************************
@@ -24,6 +24,11 @@
 	.primary {
 		width: auto;
 	}
+
+}
+
+
+
 
 
 @media screen and (min-width: 780px) {
@@ -46,10 +51,6 @@
 	.profilePhoto {
 		float: center;
 		margin: auto;
-	}
-
-	.secondary {
-		margin-bottom: 60px;
 	}
 
 	.contactBlock {
