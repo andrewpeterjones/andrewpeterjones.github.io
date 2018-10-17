@@ -39,11 +39,11 @@ body {
 }
 
 header {
-	background: #3b4736;
+	background: #fff;
 }
 
 nav {
-	background: #3b4736;
+	background: #fff;
 }
 
 
@@ -51,26 +51,15 @@ nav {
 Heading
 **************************/
 header {
-	margin: 0 0 50px 0;
-	padding: 5px 0 0 0;
+	margin: 0 0 40px 0;
+	padding: 10px 0 0 0;
 	width: 100%;
 }
 
-#logo {
-	text-align: center;
-	margin: 0;
-	color: #fff;
-}
-
-.logoA {
-	margin: 15px 0;
-	font-size: 1.75em;
-	letter-spacing: 8px;
-}
-
-.logoB {
-	font-size: 0.60em;
-	letter-spacing: 8px;
+.logo {
+	text-align: left;
+	margin: 0 30px 0 50px;
+	color: #000;
 }
 
 
@@ -78,9 +67,9 @@ header {
 Nav Bar
 **************************/
 nav {
-	text-align: center;
+	text-align: left;
 	padding: 10px 0;
-	margin: 20px 0 0;
+	margin: 30px 0 0;
 }
 
 nav ul {
@@ -95,14 +84,14 @@ nav li {
 }
 
 nav a {
-	color: #fff;
-	padding: 10px;
-	letter-spacing: 5px;
-	font-size: 0.60em;
+	color: #000;
+	padding: 5px;
+	letter-spacing: 3px;
+	font-size: 0.50em;
 }
 
 nav a.selected, a:hover {
-	color: #666;
+	color: #78c17a;
 }
 
 
@@ -204,6 +193,10 @@ About Page
 	border-color: #63283a; 
 }
 
+#aboutp {
+	text-align: center;
+}
+
 
 /**************************
 Contact Page
@@ -220,13 +213,17 @@ Contact Page
 	text-align: center;
 }
 
+.contactInfo a {
+	color: #78c17a;
+}
+
 .contactInfo a:hover {
-	color: #3b4736;
+	color: #000;
 }
 
 .contactBlock {
 	clear: both;
-	background: #3b4736;
+	background: #78c17a;
 	padding: 50px 20px;
 	margin: 40px 0 0 0;
 }
