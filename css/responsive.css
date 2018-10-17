@@ -1,6 +1,17 @@
 @media screen and (min-width: 480px) {
 	
 	/**************************
+	Nav
+	**************************/
+	.logo {
+		text-align: left;
+		margin: 0 10px;
+		color: #000;
+	}
+
+
+
+	/**************************
 	Portfolio
 	**************************/
 	h1 {
@@ -33,16 +44,6 @@
 
 @media screen and (min-width: 780px) {
 	
-	.logoA {
-		text-align: center;
-		padding: 0;
-	}
-
-	.logoB {
-		text-align: center;
-		padding: 0;
-	}
-
 	nav li {
 		padding: 0 10px;
 		font-size: 25px;
