@@ -91,7 +91,7 @@ nav a {
 }
 
 nav a.selected, a:hover {
-	color: #78c17a;
+	color: #214438;
 }
 
 
@@ -214,7 +214,7 @@ Contact Page
 }
 
 .contactInfo a {
-	color: #78c17a;
+	color: #214438;
 }
 
 .contactInfo a:hover {
@@ -223,7 +223,7 @@ Contact Page
 
 .contactBlock {
 	clear: both;
-	background: #78c17a;
+	background: #214438;
 	padding: 50px 20px;
 	margin: 40px 0 0 0;
 }
